@@ -94,9 +94,8 @@ function init() {
         name: 'displayLayout',
       },
       {
-        type: 'input',
-        message: 'Enter the instuctions for instalation (press enter to add a new line):',
-        multiline: true,
+        type: 'editor',
+        message: 'Lets write up the instuctions for instalation:',
         name: 'instalation',
       },
       {
