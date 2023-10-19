@@ -5,39 +5,6 @@ const axios = require('axios');
 
 // //: Create an array of questions for user input
 const readme = 'README.md';
-// // TODO Title
-// // TODO intro
-// TODO Table of Contents //TODO
-// TODO Installation
-// TODO Usage
-// TODO License
-// TODO Contribution
-// TODO Tests
-// TODO Questions
-
-// const tempResponse = {
-//   title: 'Javascript Quiz',
-//   github: 'https://github.com/ThatZiro/Javascript-Quiz',
-//   intro: `Step into the world of JavaScript mastery with our interactive JavaScript Quiz! Whether you're a coding enthusiast or a seasoned developer, this quiz is designed to put your JavaScript knowledge to the test. Challenge yourself with a variety of thought-provoking questions and sharpen your coding skills as you go. Our user-friendly interface ensures a seamless experience, and you'll receive instant feedback on your answers. Take the plunge into the JavaScript universe and see how well you really know this versatile language. Are you up for the challenge?`,
-//   callToAction: 'Test your JavaScript knowledge today!',
-//   signature: 'Brandon Barnes',
-//   techstack: ['html', 'css', 'javascript'],
-//   displayResponsive: true,
-//   displayFlow: true,
-//   displayLayout: true,
-//   instructions: 'testing 3',
-//   usage: 'nope',
-//   license: 'MIT',
-//   contributed: 'noone',
-//   tests: 'testagain',
-//   questions: 'no thanks',
-//   twitter: 'ThatZiro',
-//   email: 'imbrandonbarnes@gmail.com',
-//   linkedin: 'brandon-barnes-4b2098232',
-// };
-
-// // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
 
 function WriteToFile(fileName, data) {
   let readmeContent = BuildReadMe(data);
@@ -60,7 +27,7 @@ function init() {
       {
         type: 'input',
         message: 'please write a project intoduction?',
-        name: 'into',
+        name: 'intro',
       },
       {
         type: 'input',
@@ -99,9 +66,8 @@ function init() {
         name: 'instalation',
       },
       {
-        type: 'input',
-        message: 'Enter the Useage for the application (press enter to add a new line):',
-        multiline: true,
+        type: 'editor',
+        message: 'Enter the Useage for the application',
         name: 'usage',
       },
       {
@@ -206,27 +172,60 @@ function BuildReadMe(data) {
 
   // Tech Stack ==================================================
   content += `
+
   ## Tech Stack
   <a name="tech-stack"></a>`;
 
   //HTML
-  if (data.techstack.includes('html'))
+  if (data.techstack.includes('HTML'))
     content += `
   ![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)`;
   //CSS
-  if (data.techstack.includes('css'))
+  if (data.techstack.includes('CSS'))
     content += `
   ![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)`;
   //Javascript
-  if (data.techstack.includes('javascript'))
+  if (data.techstack.includes('JavaScript'))
     content += `
   ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)`;
+  //Bootstrap
+  if (data.techstack.includes('Bootstrap')) {
+    content += `
+  ![Bootstrap](https://img.shields.io/badge/Bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)`;
+  }
+  //TailwindCSS
+  if (data.techstack.includes('TailwindCSS')) {
+    content += `
+  ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)`;
+  }
+  //Jquery
+  if (data.techstack.includes('jQuery')) {
+    content += `
+  ![jQuery](https://img.shields.io/badge/jQuery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)`;
+  }
+  //React.js
+  if (data.techstack.includes('React.js')) {
+    content += `
+  ![React.js](https://img.shields.io/badge/React-%2320232A.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)`;
+  }
+  //Node.js
+  if (data.techstack.includes('Node.js')) {
+    content += `
+  ![Node.js](https://img.shields.io/badge/Node.js-%23339933.svg?style=for-the-badge&logo=node.js&logoColor=white)`;
+  }
+  //MongoDB
+  if (data.techstack.includes('MongoDB')) {
+    content += `
+  ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)`;
+  }
 
   content += `
+
   <p align="right">(<a href="#readme-top">back to top</a>)</p>`;
 
   // Sneak Peek ==============================================================================
   content += `
+
   ## Sneak Peek
 
   <a name="sneak-peek"></a>
@@ -267,6 +266,19 @@ function BuildReadMe(data) {
   </details>
   `;
 
+  content += `
+
+  ## Installation
+  <p>
+  ${data.instalation}
+  </p>
+
+  ## Useage
+  <p>
+  ${data.usage}
+  </p>
+  `;
+  //Contact =======================================================================
   content += `
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
   `;
