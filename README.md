@@ -1,13 +1,12 @@
+<a name="readme-top"></a>
 
-  <a name="readme-top"></a>
-  
-  [![Contributors][contributors-shield]][contributors-url]
-  [![Forks][forks-shield]][forks-url]
-  [![Stargazers][stars-shield]][stars-url]
-  [![Issues][issues-shield]][issues-url]
-  [![MIT License][license-shield]][license-url]
-  [![LinkedIn][linkedin-shield]][linkedin-url]
-  
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
   <div align="center">
   <a href="https://github.com/ThatZiro/README-Generator">
   <img src="./README_Assets/README-Logo.png" alt="Logo" width="160" height="160">
@@ -35,48 +34,48 @@
     <li><a href="#contact">Contact</a></li>
   </ol>
   </details>
-  
-  ## Tech Stack
-  <a name="tech-stack"></a>
-  <p align="right">(<a href="#readme-top">back to top</a>)</p>
-  ## Sneak Peek
 
-  <a name="sneak-peek"></a>
-  ![mockup720](./README_Assets/README-SneakPeak.png)
+## Tech Stack
 
-  ### <a href="https://ThatZiro.github.io/README-Generator/" target="_blank">Visit Site</a> 🚀
+<a name="tech-stack"></a>
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Node.js](https://img.shields.io/badge/Node.js-%23339933.svg?style=for-the-badge&logo=node.js&logoColor=white)
 
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-  
-  
-  ## Development
+## Sneak Peek
 
-  <a name="development"></a>
+<a name="sneak-peek"></a>
+![mockup720](./README_Assets/README-SneakPeak.png)
 
+### <a href="https://ThatZiro.github.io/README-Generator/" target="_blank">Visit Site</a> 🚀
 
-  ## Installation
-  <p>
-  Clone this repo to your desktop and run npm install to intall all the dependencies.
-Be sure to Update the README_Assets:
-    [ README-Logo.png
-    | README-SneakPeak.png
-    | README-ResponsivenessSection.png (optional)
-    | README-FlowSection.png (optional)
-    | README-LayoutSection.png (optional) ]
-  </p>
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-  ## Useage
-  <p>
-  After you cloned the repo and you have changed the README_Assets you can then run node index.js
-Follow the prompts in the console and your personal readme will be generated.
-  </p>
-  
+## Development
+
+<a name="development"></a>
+
+## Installation
+
+<code>Clone this repo to your desktop and run <pre>npm install</pre> to install all the dependencies.</code></p>
+
+  <p>Be sure to Update the README_Assets:</p>
+  <p>   - README-Logo.png</p>
+  <p>   - README-SneakPeak.png</p>
+  <p>   - README-ResponsivenessSection.png (optional)</p>
+  <p>   - -README-FlowSection.png (optional)</p>
+  <p>   - README-LayoutSection.png (optional)</p>
+
+## Usage
+
+  <p><code>After you cloned the repo and you have changed the README_Assets you can then run <pre>node index.js</pre></code></p>
+  <p>Follow the prompts in the console and your personal readme will be generated.</p>
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
   
    ## Contact
 
-  <a name="contact"></a>
+<a name="contact"></a>
 
   <h4>Twitter - <a href="https://twitter.com/undefined">@ThatZiro</a></h4>
   <h4>Email - <a href="mailto:imbrandonbarnes@gmail.com">imbrandonbarnes@gmail.com</a></h4>
@@ -87,17 +86,15 @@ Follow the prompts in the console and your personal readme will be generated.
   <!-- MARKDOWN LINKS & IMAGES -->
   <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-  [contributors-shield]: https://img.shields.io/github/contributors/ThatZiro/README-Generator.svg?style=for-the-badge
-  [contributors-url]: https://github.com/ThatZiro/README-Generator/graphs/contributors
-  [forks-shield]: https://img.shields.io/github/forks/ThatZiro/README-Generator.svg?style=for-the-badge
-  [forks-url]: https://github.com/ThatZiro/README-Generator/network/members
-  [stars-shield]: https://img.shields.io/github/stars/ThatZiro/README-Generator.svg?style=for-the-badge
-  [stars-url]: https://github.com/ThatZiro/README-Generator/stargazers
-  [issues-shield]: https://img.shields.io/github/issues/ThatZiro/README-Generator.svg?style=for-the-badge
-  [issues-url]: https://github.com/ThatZiro/README-Generator/issues
-  [license-shield]: https://img.shields.io/github/license/ThatZiro/README-Generator.svg?style=for-the-badge
-  [license-url]: https://github.com/ThatZiro/README-Generator/blob/master/LICENSE.txt
-  [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-  [linkedin-url]: https://linkedin.com/in/linkedin_username
-
-  
+[contributors-shield]: https://img.shields.io/github/contributors/ThatZiro/README-Generator.svg?style=for-the-badge
+[contributors-url]: https://github.com/ThatZiro/README-Generator/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/ThatZiro/README-Generator.svg?style=for-the-badge
+[forks-url]: https://github.com/ThatZiro/README-Generator/network/members
+[stars-shield]: https://img.shields.io/github/stars/ThatZiro/README-Generator.svg?style=for-the-badge
+[stars-url]: https://github.com/ThatZiro/README-Generator/stargazers
+[issues-shield]: https://img.shields.io/github/issues/ThatZiro/README-Generator.svg?style=for-the-badge
+[issues-url]: https://github.com/ThatZiro/README-Generator/issues
+[license-shield]: https://img.shields.io/github/license/ThatZiro/README-Generator.svg?style=for-the-badge
+[license-url]: https://github.com/ThatZiro/README-Generator/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/linkedin_username

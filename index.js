@@ -268,16 +268,28 @@ function BuildReadMe(data) {
 
   content += `
 
-  ## Installation
-  <p>
-  ${data.instalation}
-  </p>
+  ## Installation`;
 
-  ## Useage
-  <p>
-  ${data.usage}
-  </p>
-  `;
+  let instruction = data.instalation.split('\r\n');
+
+  console.log('TESTING');
+  console.log(data.instalation);
+  console.log(instruction);
+  for (const item of instruction) {
+    content += `
+    <p>${item}</p>`;
+  }
+
+  content += `
+
+  ## Usage`;
+
+  let usage = data.usage.split('\r\n');
+
+  for (const item of usage) {
+    content += `
+    <p>${item}</p>`;
+  }
   //Contact =======================================================================
   content += `
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
